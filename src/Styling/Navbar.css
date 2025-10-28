@@ -1,0 +1,20 @@
+body {
+  background: linear-gradient(to bottom, #ffe4e1, #fff);
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.navbar {
+  background-color: #ffb6c1;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.album-card, .video-card {
+  background: #fff0f5;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 0 10px #ffc0cb;
+}
