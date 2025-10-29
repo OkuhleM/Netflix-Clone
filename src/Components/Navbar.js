@@ -6,12 +6,15 @@ function Navbar() {
   return (
     <div>
         <nav className='navbar'>
-<h1>ZaynFlix 💖</h1>
+<h1 className='zayn'>ZaynFlix 💖</h1>
 <div className="nav-links">
-      <Link to="/">Home</Link>
-      <Link to="/albums">Albums</Link>
-      <Link to="/videos">Videos</Link>
-      <Link to="/about">About</Link>
+     <ul className="nav">
+        <li><Link to="/">About</Link></li>
+        <li><Link to="/albums">Albums</Link></li>
+        <li><Link to="/singles">Singles</Link></li>
+        <li><Link to="/music-videos">Music Videos</Link></li>
+        <li><input type='search' /></li>
+      </ul>
     </div>
         </nav>
     </div>

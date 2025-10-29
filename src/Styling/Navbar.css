@@ -1,20 +1,26 @@
 body {
-  background: linear-gradient(to bottom, #ffe4e1, #fff);
+  background: #000;
   font-family: 'Poppins', sans-serif;
-  color: #333;
+  color: #fff;
 }
 
-.navbar {
-  background-color: #ffb6c1;
+.zayn{
+  color: #E50914;
+  text-transform:uppercase;
+}
+
+ .navbar {
   padding: 1rem;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-evenly;
+} 
+
+.nav{ 
+  display: flex;
+  gap: 6rem;
+  padding: 1rem;
 }
 
-.album-card, .video-card {
-  background: #fff0f5;
-  border-radius: 12px;
-  padding: 1rem;
-  box-shadow: 0 0 10px #ffc0cb;
+ul{
+  list-style: none;
 }
