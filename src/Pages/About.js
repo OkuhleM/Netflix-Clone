@@ -1,8 +1,12 @@
 import React from 'react'
+import zaynBanner from '../Assets/ZaynBanner.jpg';
+import '../Styling/About.css'
+import Navbar from '../Components/Navbar';
 
 function About() {
   return (
     <div className="about-container">
+        {/* <Navbar /> */}
         <div className="about-banner">
         <img src={zaynBanner} alt="Zayn Malik" />
         <div className="banner-overlay"></div>
