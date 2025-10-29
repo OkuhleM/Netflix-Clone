@@ -1,7 +1,10 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import Navbar from './Navbar'
 
 function LandingPage() {
+
+ 
+
   return (
     <div>
         <Navbar />
