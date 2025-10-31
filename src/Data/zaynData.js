@@ -108,3 +108,31 @@ export const singles = [
     link: "https://www.youtube.com/watch?v=918oGJFtjjw&list=RD918oGJFtjjw&start_radio=1",
   },
 ];
+
+export const musicVideos = [
+  {
+    title: "Love Like This",
+    image: "../Assets/Love_like_this.jpg",
+    link: "https://www.youtube.com/watch?v=918oGJFtjjw&list=RD918oGJFtjjw&start_radio=1",
+  },
+  {
+    title: "Let Me",
+    image: "../Assets/Let_me.jpeg",
+    link: "https://www.youtube.com/watch?v=J-dv_DcDD_A&list=RDJ-dv_DcDD_A&start_radio=1",
+  },
+  {
+    title: "PILLOWTALK",
+    image: "../Assets",
+    link: "https://www.youtube.com/watch?v=C_3d6GntKbk",
+  },
+  {
+    title: "Dusk Till Dawn ft. Sia",
+    image: "../Assets/Dusk_Till_Dawn.jpeg",
+    link: "https://www.youtube.com/watch?v=tt2k8PGm-TI",
+  },
+  {
+    title: "I Don't Wanna Live Forever",
+    image: "../Assets/I_Don't_Wanna_live_forever.jpeg",
+    link: "https://www.youtube.com/watch?v=AY9blLYMKnI&list=RDAY9blLYMKnI&start_radio=1",
+  },
+];
