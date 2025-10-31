@@ -29,6 +29,7 @@ const bannerImages = [
 "../Assets/zayn10.jpeg"
 ];
 
+
   return (
     <div className="banner">
           {bannerImages.map((img, index) => (
