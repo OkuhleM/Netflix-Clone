@@ -3,56 +3,61 @@
   width: 100%;
   height: 80vh;
   overflow: hidden;
-  border-bottom: 2px solid #e50914;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #000;
 }
 
-.slide {
+.banner-img {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-size: cover;
-  background-position: center;
-  opacity: 0;
-  transform: scale(1.1);
-  transition: opacity 1.5s ease-in-out, transform 3s ease;
-  filter: brightness(70%) contrast(110%);
+  object-fit: cover;
+  filter: brightness(65%) contrast(110%) saturate(110%);
+  z-index: 1;
+  transition: transform 10s ease;
+  animation: zoomIn 12s ease-in-out infinite alternate;
 }
 
-.slide.active {
-  opacity: 1;
-  transform: scale(1);
-}
-
-/* Overlay for text */
+/* Cinematic red glow overlay */
 .banner-overlay {
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 60px;
-  color: white;
+  background: radial-gradient(circle at center, rgba(229, 9, 20, 0.25), rgba(0, 0, 0, 0.85));
   z-index: 2;
 }
 
-.banner-title {
+.banner-content {
+  position: relative;
+  z-index: 3;
+  padding-left: 5%;
+  color: #fff;
+  max-width: 600px;
+  animation: fadeUp 1.5s ease forwards;
+}
+
+.banner-content h1 {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 4rem;
+  font-size: 5rem;
+  letter-spacing: 2px;
   color: #e50914;
-  text-shadow: 0 0 20px rgba(229, 9, 20, 0.7);
+  text-shadow: 0 0 25px rgba(229, 9, 20, 0.7);
 }
 
-.banner-subtitle {
+.banner-content p {
   font-family: "Poppins", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
   color: #b3b3b3;
-  margin: 15px 0 25px;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
 
+/* Buttons */
 .banner-buttons {
   display: flex;
   gap: 15px;
@@ -61,6 +66,8 @@
 .banner-btn {
   background-color: #e50914;
   color: #fff;
+  border: none;
+  outline: none;
   text-decoration: none;
   padding: 10px 25px;
   border-radius: 8px;
@@ -72,6 +79,7 @@
 .banner-btn:hover {
   background-color: #b00610;
   transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(229, 9, 20, 0.5);
 }
 
 .banner-btn.secondary {
@@ -81,23 +89,41 @@
 
 .banner-btn.secondary:hover {
   background-color: #e50914;
+  color: #fff;
 }
 
-/* Responsive */
+/* Animations */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.08);
+  }
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
-  .banner {
-    height: 60vh;
+  .banner-content h1 {
+    font-size: 3rem;
   }
 
-  .banner-title {
-    font-size: 2.5rem;
-  }
-
-  .banner-subtitle {
+  .banner-content p {
     font-size: 1rem;
   }
 
-  .banner-overlay {
-    padding: 30px;
+  .banner {
+    height: 65vh;
   }
 }
