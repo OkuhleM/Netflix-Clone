@@ -10,6 +10,9 @@ function Navbar() {
         <div className="nav-links">
           <ul className="nav">
             <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
               <Link to="/about">About</Link>
             </li>
             <li>
@@ -21,9 +24,7 @@ function Navbar() {
             <li>
               <Link to="/videos">Music Videos</Link>
             </li>
-            <li>
-              <input type="search" />
-            </li>
+            
           </ul>
         </div>
       </nav>
