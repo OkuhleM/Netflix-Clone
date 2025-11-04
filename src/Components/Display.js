@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from './LandingPage';
 import About from '../Pages/About';
 import Albums from '../Pages/Albums';
+import Videos from '../Pages/Videos';
 
 function Display() {
   return (
@@ -12,6 +13,7 @@ function Display() {
         <Route path="/" element={<LandingPage />} />
         <Route path='/about' element={<About />} />
         <Route path='/albums' element={<Albums />} />
+        <Route path='/videos' element={<Videos />} />
        
       </Routes>
     </Router>
