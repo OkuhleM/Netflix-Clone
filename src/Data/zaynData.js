@@ -2,7 +2,14 @@ import MindOfMine from "../Assets/Mindo_of_mine.jpg";
 import IcarusFall from "../Assets/Icarus_falls.jpg";
 import NobodyIsListening from "../Assets/nobody_is_listening.jpg";
 import RUTS from "../Assets/Room_under_the_stairs.jpg";
-
+import DuskTillDawn from "../Assets/Dusk_Till_Dawn.jpeg"
+import PillowTalk from "../Assets/Pillow_talk.jpg"
+import LoveLikeThis from "../Assets/Love_like_this.jpg"
+import LetMe from "../Assets/Let_me.jpeg"
+import IDWLF from "../Assets/I_Don't_Wanna_live_forever.jpeg"
+import Entertainer from "../Assets/entertainer.jpeg"
+import vibez from "../Assets/vibez.jpeg"
+import EyesClosed from "../Assets/Eyes_Image.jpeg"
 
 export const albums = [
   {
@@ -136,28 +143,57 @@ export const singles = [
 
 export const musicVideos = [
   {
+    id:1,
     title: "Love Like This",
-    image: "../Assets/Love_like_this.jpg",
+    year: 2023,
+    image: LoveLikeThis,
     link: "https://www.youtube.com/watch?v=918oGJFtjjw&list=RD918oGJFtjjw&start_radio=1",
   },
   {
+    id: 2,
     title: "Let Me",
-    image: "../Assets/Let_me.jpeg",
+    year: 2018,
+    image: LetMe,
     link: "https://www.youtube.com/watch?v=J-dv_DcDD_A&list=RDJ-dv_DcDD_A&start_radio=1",
   },
   {
+    id: 3,
     title: "PILLOWTALK",
-    image: "../Assets",
+    year: 2016,
+    image: PillowTalk,
     link: "https://www.youtube.com/watch?v=C_3d6GntKbk",
   },
-  {
+  { id: 4,
     title: "Dusk Till Dawn ft. Sia",
-    image: "../Assets/Dusk_Till_Dawn.jpeg",
+    year: 2017,
+    image: DuskTillDawn,
     link: "https://www.youtube.com/watch?v=tt2k8PGm-TI",
   },
-  {
+  { id: 5,
     title: "I Don't Wanna Live Forever",
-    image: "../Assets/I_Don't_Wanna_live_forever.jpeg",
+    year: 2017,
+    image: IDWLF,
     link: "https://www.youtube.com/watch?v=AY9blLYMKnI&list=RDAY9blLYMKnI&start_radio=1",
+  },
+   {
+    id: 6,
+    title: "Entertainer",
+    year: 2018,
+    image: Entertainer,
+    link: "https://www.youtube.com/watch?v=voG07pt-KYI&list=RDvoG07pt-KYI&start_radio=1",
+  },
+  {
+    id: 7,
+    title: "Vibez",
+    year: 2021,
+    image: vibez,
+    link: "https://www.youtube.com/watch?v=VSpgaN3wuag&list=RDVSpgaN3wuag&start_radio=1",
+  },
+    {
+    id: 8,
+    title: "Eyes Closed",
+    year: 2025,
+    image: EyesClosed,
+    link: "https://www.youtube.com/watch?v=EN1tMeXQii0&list=RDEN1tMeXQii0&start_radio=1",
   },
 ];
