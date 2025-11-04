@@ -1,22 +1,47 @@
+import MindOfMine from "../Assets/Mindo_of_mine.jpg";
+import IcarusFall from "../Assets/Icarus_falls.jpg";
+import NobodyIsListening from "../Assets/nobody_is_listening.jpg";
+import RUTS from "../Assets/Room_under_the_stairs.jpg";
+
+
 export const albums = [
   {
+    id: 1,
     title: "Mind of Mine",
-    image: "../Assets/Mindo_of_mine.jpg",
+    year: 2016,
+    image: MindOfMine,
+    description:
+      "Zayn’s debut solo album, filled with R&B sensuality and smooth vibes.",
+
     link: "https://www.youtube.com/watch?v=go8_ZWFdYGs&list=OLAK5uy_nrbHEhhkZIpj3-XdSQm75NdaqxRScGpQc",
   },
   {
+    id: 2,
     title: "Icarus Falls",
-    image: "../Assets/Icarus_falls.jpg",
+    year: 2018,
+    image: IcarusFall,
+    description:
+      "An ambitious double album diving into love, loss, and redemption.",
+
     link: "https://www.youtube.com/watch?v=J-dv_DcDD_A&list=OLAK5uy_kfGBYHa-Wm6DHcn8p-n9NIf8xIRrNgYjw",
   },
   {
+    id: 3,
     title: "Nobody is Listening",
-    image: "../Assets/nobody_is_listening.jpg",
+    year: 2021,
+    image: NobodyIsListening,
+    description:
+      "Soft and introspective — Zayn bares his soul with minimalistic beauty.",
+
     link: "https://www.youtube.com/watch?v=_QzFnZ5oyTw&list=OLAK5uy_m5BRSFjdQ4xuwKUuNeUI6BQ0wwWFBI01c",
   },
   {
-    title: "Room Under the Stairs",
-    image: "../Assets/Room_under_the_stairs.jpg",
+    id: 4,
+    title: "Room Under The Stair",
+    year: 2024,
+    image: RUTS,
+     description:
+      "Zayn’s latest masterpiece, raw, poetic, and beautifully haunted.",
     link: "https://www.youtube.com/watch?v=go5IoTKxevo&list=OLAK5uy_m2WsN-tgpnNcLysgfIOaOZZcWtxm-Bnlk",
   },
 ];
