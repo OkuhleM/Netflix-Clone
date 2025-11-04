@@ -19,7 +19,7 @@ function Navbar() {
               <Link to="/singles">Singles</Link>
             </li>
             <li>
-              <Link to="/music-videos">Music Videos</Link>
+              <Link to="/videos">Music Videos</Link>
             </li>
             <li>
               <input type="search" />
