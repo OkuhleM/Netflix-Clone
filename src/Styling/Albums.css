@@ -1,6 +1,6 @@
 .albums-page {
   padding: 40px;
-  background: #0d0d0d;
+  background: #14000a;
   color: white;
   text-align: center;
   min-height: 100vh;
@@ -32,11 +32,7 @@
   transform: translateY(-5px);
   box-shadow: 0 6px 25px rgba(255, 192, 203, 0.3);
 }
-/* .album-card:hover .album-cover {
-  filter: brightness(1.1);
-  transform: scale(1.02);
-  transition: all 0.3s ease-in-out;
-} */
+
 
 .album-cover {
   width: 100%;
