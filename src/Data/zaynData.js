@@ -19,7 +19,7 @@ import Fingers from "../Assets/Fingers.jpeg"
 import NCNL from "../Assets/NoCandleNoLight.jpeg"
 import AWNW from "../Assets/AWholeNewWorld.jpeg"
 import Flames from "../Assets/Flames.jpeg"
-import StarDust from "../Assets/Sour_Diesel.jpeg"
+import StarDust from "../Assets/stardust.jpeg"
 
 export const albums = [
   {
