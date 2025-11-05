@@ -10,6 +10,16 @@ import IDWLF from "../Assets/I_Don't_Wanna_live_forever.jpeg";
 import Entertainer from "../Assets/entertainer.jpeg";
 import vibez from "../Assets/vibez.jpeg";
 import EyesClosed from "../Assets/Eyes_Image.jpeg";
+import ItsYou from "../Assets/It's_You.jpeg"
+import Befour from "../Assets/befour.jpeg"
+import LIW from "../Assets/LikeIWould.jpeg"
+import StillGotTime from "../Assets/still-got-time.jpeg"
+import SourDiesel from "../Assets/sour-diesel.jpeg"
+import Fingers from "../Assets/Fingers.jpeg"
+import NCNL from "../Assets/NoCandleNoLight.jpeg"
+import AWNW from "../Assets/AWholeNewWorld.jpeg"
+import Flames from "../Assets/Flames.jpeg"
+import StarDust from "../Assets/Sour_Diesel.jpeg"
 
 export const albums = [
   {
@@ -202,70 +212,70 @@ export const musicVideos = [
     id: 9,
     title: "It's You",
     year: 2016,
-    image: EyesClosed,
+    image: ItsYou,
     link: "https://www.youtube.com/watch?v=1seDBXvGYcc&list=RD1seDBXvGYcc&start_radio=1",
   },
   {
     id: 10,
     title: "Befour",
     year: 2016,
-    image: EyesClosed,
+    image: Befour,
     link: "https://www.youtube.com/watch?v=_EaPxw5exts&list=RD_EaPxw5exts&start_radio=1",
   },
   {
     id: 11,
     title: "Like I Would",
     year: 2016,
-    image: EyesClosed,
+    image: LIW,
     link: "https://www.youtube.com/watch?v=pTaqcGz2O5o&list=RDpTaqcGz2O5o&start_radio=1",
   },
   {
     id: 12,
     title: "Still Got Time",
     year: 2017,
-    image: EyesClosed,
+    image: StillGotTime,
     link: "https://www.youtube.com/watch?v=cHOrHGpL4u0&list=RDcHOrHGpL4u0&start_radio=1",
   },
   {
     id: 13,
     title: "Sour Diesel",
     year: 2019,
-    image: EyesClosed,
+    image: SourDiesel,
     link: "https://www.youtube.com/watch?v=033499WBFTM&list=RD033499WBFTM&start_radio=1",
   },
   {
     id: 14,
     title: "Fingers",
     year: 2019,
-    image: EyesClosed,
+    image: Fingers,
     link: "https://www.youtube.com/watch?v=wj0IyJ0uCwU&list=RDwj0IyJ0uCwU&start_radio=1",
   },
   {
     id: 15,
     title: "No Candle No Light",
     year: 2019,
-    image: EyesClosed,
+    image: NCNL,
     link: "https://www.youtube.com/watch?v=R1eQKlzy6Lk&list=RDR1eQKlzy6Lk&start_radio=1",
   },
   {
     id: 16,
     title: "A Whole New World",
     year: 2019,
-    image: EyesClosed,
+    image: AWNW,
     link: "https://www.youtube.com/watch?v=rg_zwK_sSEY&list=RDrg_zwK_sSEY&start_radio=1",
   },
   {
     id: 17,
     title: "Flames",
     year: 2020,
-    image: EyesClosed,
+    image: Flames,
     link: "https://www.youtube.com/watch?v=LWEG5xHgM7c&list=RDLWEG5xHgM7c&start_radio=1",
   },
   {
     id: 18,
     title: "Stardust",
     year: 2024,
-    image: EyesClosed,
+    image: StarDust,
     link: "https://www.youtube.com/watch?v=F9t607v-TDU&list=RDF9t607v-TDU&start_radio=1",
   },
 ];
