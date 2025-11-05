@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styling/Banner.css";
-import zaynBanner from "../Assets/ZaynBanner.jpg";
+import zaynBanner from "../Assets/zayn-copy.jpg";
 import {albums} from "../Data/zaynData"
 
 function Banner() {
@@ -11,11 +11,12 @@ function Banner() {
       <div className="featured-card">
 
       <img src={zaynBanner} alt="Zayn Malik" className="banner-img" />
+      <div className="banner-overlay"></div>
       </div>
       <div className="featured-info">
         <h1 className="album-title"> Room Under The Stairs</h1>
-        <p className="album-details"> 2024 * Includes " Alienate" * "Stardust" </p>
-        <button className="listen-btn">LISTEN NOW</button>
+        <p className="album-details"> 2024 • Includes  "Alienated" • "Stardust" </p>
+        <button className="listen-btn">▶ LISTEN NOW</button>
       </div>
 
 <div className="albums-section">
@@ -40,7 +41,7 @@ function Banner() {
                   rel="noreferrer"
                   className="album-btn"
                 >
-                 Listen on YouTube
+                Listen On Youtube
                 </a>
               </div>
             </div>
