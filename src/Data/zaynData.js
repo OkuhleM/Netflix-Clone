@@ -2,14 +2,14 @@ import MindOfMine from "../Assets/Mindo_of_mine.jpg";
 import IcarusFall from "../Assets/Icarus_falls.jpg";
 import NobodyIsListening from "../Assets/nobody_is_listening.jpg";
 import RUTS from "../Assets/Room_under_the_stairs.jpg";
-import DuskTillDawn from "../Assets/Dusk_Till_Dawn.jpeg"
-import PillowTalk from "../Assets/Pillow_talk.jpg"
-import LoveLikeThis from "../Assets/Love_like_this.jpg"
-import LetMe from "../Assets/Let_me.jpeg"
-import IDWLF from "../Assets/I_Don't_Wanna_live_forever.jpeg"
-import Entertainer from "../Assets/entertainer.jpeg"
-import vibez from "../Assets/vibez.jpeg"
-import EyesClosed from "../Assets/Eyes_Image.jpeg"
+import DuskTillDawn from "../Assets/Dusk_Till_Dawn.jpeg";
+import PillowTalk from "../Assets/Pillow_talk.jpg";
+import LoveLikeThis from "../Assets/Love_like_this.jpg";
+import LetMe from "../Assets/Let_me.jpeg";
+import IDWLF from "../Assets/I_Don't_Wanna_live_forever.jpeg";
+import Entertainer from "../Assets/entertainer.jpeg";
+import vibez from "../Assets/vibez.jpeg";
+import EyesClosed from "../Assets/Eyes_Image.jpeg";
 
 export const albums = [
   {
@@ -47,7 +47,7 @@ export const albums = [
     title: "Room Under The Stair",
     year: 2024,
     image: RUTS,
-     description:
+    description:
       "Zayn’s latest masterpiece, raw, poetic, and beautifully haunted.",
     link: "https://www.youtube.com/watch?v=go5IoTKxevo&list=OLAK5uy_m2WsN-tgpnNcLysgfIOaOZZcWtxm-Bnlk",
   },
@@ -143,7 +143,7 @@ export const singles = [
 
 export const musicVideos = [
   {
-    id:1,
+    id: 1,
     title: "Love Like This",
     year: 2023,
     image: LoveLikeThis,
@@ -163,19 +163,21 @@ export const musicVideos = [
     image: PillowTalk,
     link: "https://www.youtube.com/watch?v=C_3d6GntKbk",
   },
-  { id: 4,
+  {
+    id: 4,
     title: "Dusk Till Dawn ft. Sia",
     year: 2017,
     image: DuskTillDawn,
     link: "https://www.youtube.com/watch?v=tt2k8PGm-TI",
   },
-  { id: 5,
+  {
+    id: 5,
     title: "I Don't Wanna Live Forever",
     year: 2017,
     image: IDWLF,
     link: "https://www.youtube.com/watch?v=AY9blLYMKnI&list=RDAY9blLYMKnI&start_radio=1",
   },
-   {
+  {
     id: 6,
     title: "Entertainer",
     year: 2018,
@@ -189,11 +191,81 @@ export const musicVideos = [
     image: vibez,
     link: "https://www.youtube.com/watch?v=VSpgaN3wuag&list=RDVSpgaN3wuag&start_radio=1",
   },
-    {
+  {
     id: 8,
     title: "Eyes Closed",
     year: 2025,
     image: EyesClosed,
     link: "https://www.youtube.com/watch?v=EN1tMeXQii0&list=RDEN1tMeXQii0&start_radio=1",
+  },
+  {
+    id: 9,
+    title: "It's You",
+    year: 2016,
+    image: EyesClosed,
+    link: "https://www.youtube.com/watch?v=1seDBXvGYcc&list=RD1seDBXvGYcc&start_radio=1",
+  },
+  {
+    id: 10,
+    title: "Befour",
+    year: 2016,
+    image: EyesClosed,
+    link: "https://www.youtube.com/watch?v=_EaPxw5exts&list=RD_EaPxw5exts&start_radio=1",
+  },
+  {
+    id: 11,
+    title: "Like I Would",
+    year: 2016,
+    image: EyesClosed,
+    link: "https://www.youtube.com/watch?v=pTaqcGz2O5o&list=RDpTaqcGz2O5o&start_radio=1",
+  },
+  {
+    id: 12,
+    title: "Still Got Time",
+    year: 2017,
+    image: EyesClosed,
+    link: "https://www.youtube.com/watch?v=cHOrHGpL4u0&list=RDcHOrHGpL4u0&start_radio=1",
+  },
+  {
+    id: 13,
+    title: "Sour Diesel",
+    year: 2019,
+    image: EyesClosed,
+    link: "https://www.youtube.com/watch?v=033499WBFTM&list=RD033499WBFTM&start_radio=1",
+  },
+  {
+    id: 14,
+    title: "Fingers",
+    year: 2019,
+    image: EyesClosed,
+    link: "https://www.youtube.com/watch?v=wj0IyJ0uCwU&list=RDwj0IyJ0uCwU&start_radio=1",
+  },
+  {
+    id: 15,
+    title: "No Candle No Light",
+    year: 2019,
+    image: EyesClosed,
+    link: "https://www.youtube.com/watch?v=R1eQKlzy6Lk&list=RDR1eQKlzy6Lk&start_radio=1",
+  },
+  {
+    id: 16,
+    title: "A Whole New World",
+    year: 2019,
+    image: EyesClosed,
+    link: "https://www.youtube.com/watch?v=rg_zwK_sSEY&list=RDrg_zwK_sSEY&start_radio=1",
+  },
+  {
+    id: 17,
+    title: "Flames",
+    year: 2020,
+    image: EyesClosed,
+    link: "https://www.youtube.com/watch?v=LWEG5xHgM7c&list=RDLWEG5xHgM7c&start_radio=1",
+  },
+  {
+    id: 18,
+    title: "Stardust",
+    year: 2024,
+    image: EyesClosed,
+    link: "https://www.youtube.com/watch?v=F9t607v-TDU&list=RDF9t607v-TDU&start_radio=1",
   },
 ];
