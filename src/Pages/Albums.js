@@ -4,7 +4,6 @@ import "../Styling/Albums.css";
 import { albums } from "../Data/zaynData";
 
 function Albums() {
-  console.log('albums', albums)
   return (
     <div>
       <Navbar />

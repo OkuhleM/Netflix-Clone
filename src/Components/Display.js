@@ -5,11 +5,14 @@ import About from "../Pages/About";
 import Albums from "../Pages/Albums";
 import Videos from "../Pages/Videos";
 import Singles from "../Pages/Singles";
+import IsLoading from "./IsLoading";
+import AppWrapper from "./AppWrapper";
 
 function Display() {
   return (
     <div>
       <Router>
+        <AppWrapper>
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/about" element={<About />} />
@@ -17,6 +20,7 @@ function Display() {
           <Route path="/videos" element={<Videos />} />
           <Route path="/singles" element={<Singles />} />
         </Routes>
+        </AppWrapper>
       </Router>
     </div>
   );

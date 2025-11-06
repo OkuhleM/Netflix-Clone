@@ -24,7 +24,21 @@ function About() {
           Built with passion by fans, for fans. Because Zayn doesn’t just make music —
           he builds worlds, and this is ours. 🌙
         </p>
+
+          <div className="subscribe-section">
+          <h2>💖 Love Zayn’s visuals?</h2>
+          <p>Don’t miss a single drop — subscribe to his official YouTube channel!</p>
+          <a
+            href="https://www.youtube.com/@Zayn"
+            target="_blank"
+            rel="noreferrer"
+            className="subscribe-btn"
+          >
+            🔔 Subscribe on YouTube
+          </a>
+        </div>
       </div>
+      
     </div>
   )
 }
