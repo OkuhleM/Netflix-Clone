@@ -10,18 +10,19 @@ import IDWLF from "../Assets/I_Don't_Wanna_live_forever.jpeg";
 import Entertainer from "../Assets/entertainer.jpeg";
 import vibez from "../Assets/vibez.jpeg";
 import EyesClosed from "../Assets/Eyes_Image.jpeg";
-import ItsYou from "../Assets/It's_You.jpeg"
-import Befour from "../Assets/befour.jpeg"
-import LIW from "../Assets/LikeIWould.jpeg"
-import StillGotTime from "../Assets/still-got-time.jpeg"
-import SourDiesel from "../Assets/sour-diesel.jpeg"
-import Fingers from "../Assets/Fingers.jpeg"
-import NCNL from "../Assets/NoCandleNoLight.jpeg"
-import AWNW from "../Assets/AWholeNewWorld.jpeg"
-import Flames from "../Assets/Flames.jpeg"
-import StarDust from "../Assets/stardust.jpeg"
-import Better from "../Assets/better.jpeg"
-import Alienated from "../Assets/zayn-copy.jpg"
+import ItsYou from "../Assets/It's_You.jpeg";
+import Befour from "../Assets/befour.jpeg";
+import LIW from "../Assets/LikeIWould.jpeg";
+import StillGotTime from "../Assets/still-got-time.jpeg";
+import SourDiesel from "../Assets/sour-diesel.jpeg";
+import Fingers from "../Assets/Fingers.jpeg";
+import NCNL from "../Assets/NoCandleNoLight.jpeg";
+import AWNW from "../Assets/AWholeNewWorld.jpeg";
+import Flames from "../Assets/Flames.jpeg";
+import StarDust from "../Assets/stardust.jpeg";
+import Better from "../Assets/better.jpeg";
+import Alienated from "../Assets/zayn-copy.jpg";
+
 
 export const albums = [
   {
@@ -64,8 +65,6 @@ export const albums = [
     link: "https://www.youtube.com/watch?v=go5IoTKxevo&list=OLAK5uy_m2WsN-tgpnNcLysgfIOaOZZcWtxm-Bnlk",
   },
 ];
-
-
 
 export const musicVideos = [
   {
@@ -178,7 +177,7 @@ export const musicVideos = [
     title: "A Whole New World",
     year: 2019,
     image: AWNW,
-    link: "https://www.youtube.com/watch?v=rg_zwK_sSEY&list=RDrg_zwK_sSEY&start_radio=1",
+    link: "https://www.youtube.com/watch?v=EqDK225zfwk",
   },
   {
     id: 17,
@@ -199,20 +198,35 @@ export const musicVideos = [
     title: "Better",
     year: 2021,
     image: Better,
-    link: "http://youtube.com/watch?v=NAo38Q9c4xA&list=RDNAo38Q9c4xA&start_radio=1"
-
+    link: "http://youtube.com/watch?v=NAo38Q9c4xA&list=RDNAo38Q9c4xA&start_radio=1",
   },
   {
     id: 20,
     title: "Alienated",
     year: 2024,
     image: Alienated,
-    link: "https://www.youtube.com/watch?v=MPo97pLuuQM&list=RDMPo97pLuuQM&start_radio=1"
+    link: "https://www.youtube.com/watch?v=MPo97pLuuQM&list=RDMPo97pLuuQM&start_radio=1",
   },
-   {
+  {
     id: 21,
     title: "Flames (R3HAB & Jungleboi Feat Zayn)",
+    year: 2020,
     image: Flames,
-    link: "https://www.youtube.com/watch?v=LWEG5xHgM7c&list=RDLWEG5xHgM7c&start_radio=1"
+    link: "https://www.youtube.com/watch?v=LWEG5xHgM7c&list=RDLWEG5xHgM7c&start_radio=1",
+  },
+  {
+    id: 22,
+    title: "Paying 4 Their Sins",
+    year: 2025,
+    image: Alienated,
+    link: "https://www.youtube.com/watch?v=ihPItAi0iZk"
+
+  },
+  {
+    id: 23,
+    title: "We Are The People",
+    year: 2025,
+    image: Alienated,
+    link: "https://www.youtube.com/watch?v=ruP9azo2XSg"
   }
 ];

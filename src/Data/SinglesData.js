@@ -9,7 +9,6 @@ import Fingers from "../Assets/Fingers.jpeg";
 import TooMuch from "../Assets/Too_Much.jpeg";
 import LetMe from "../Assets/Let_me.jpeg";
 import LikeIWould from "../Assets/LikeIWould.jpeg";
-import IDWLF from "../Assets/I_Don't_Wanna_live_forever.jpeg";
 import SourDiesel from "../Assets/sour-diesel.jpeg";
 import WhatIam from "../Assets/What_I_am.jpeg";
 import Wrong from "../Assets/Wrong.jpeg";
@@ -28,103 +27,104 @@ import ItsYou from "../Assets/It's_You.jpeg"
 import Rainberry from "../Assets/rainberry.png"
 import GoodYears from "../Assets/goodyears.jpeg"
 import ThereYouAre from "../Assets/thereyouare.jpeg"
+import IDWNF from "../Assets/I_Don't_Wanna_live_forever.jpeg"
 
 export const singles = [
   {
     id: 1,
     title: "PILLOWTALK",
-    image: "../Assets",
+    image: PillowTalk,
     link: "https://www.youtube.com/watch?v=C_3d6GntKbk",
   },
   {
     id: 2,
     title: "Dusk Till Dawn (ft. Sia)",
-    image: "../Assets/Dusk_Till_Dawn.jpeg",
+    image: DuskTillDawn,
     link: "https://www.youtube.com/watch?v=tt2k8PGm-TI",
   },
   {
     id: 3,
     title: "Bed Peace",
-    image: "../Assets/bed_peace.jpeg",
+    image: BedPeace,
     link: "https://www.youtube.com/watch?v=liv9US_lQRE&list=RDliv9US_lQRE&start_radio=1",
   },
   {
     id: 4,
     title: "Can't Help Falling In Love",
-    image: "../Assets/can't_help_falling_in_love.jpeg",
+    image: CHFIL,
     link: "https://www.youtube.com/watch?v=0QTlz9mbfOo&list=RD0QTlz9mbfOo&start_radio=1",
   },
   {
     id: 5,
     title: "Me Myself and I",
-    image: "../Assets/Me_Myself_and_I.jpg",
+    image: MMAI,
     link: "https://www.youtube.com/watch?v=Mr1Qija2ibo&list=RDMr1Qija2ibo&start_radio=1",
   },
   {
     id: 6,
     title: "Still Got Time (Feat Party Nextdoor)",
-    image: "../Assets/Still_got_time.jpeg",
+    image: StillGotTime,
     link: "https://www.youtube.com/watch?v=cHOrHGpL4u0&list=RDcHOrHGpL4u0&start_radio=1",
   },
   {
     id: 7,
     title: "No Candle No Light (Feat Nicki Minaj)",
-    image: "../Assets/No_candle_no_light.jpeg",
+    image: NCNL,
     link: "https://www.youtube.com/watch?v=R1eQKlzy6Lk&list=RDR1eQKlzy6Lk&start_radio=1",
   },
   {
     id: 8,
     title: "Fingers",
-    image: "../Assets/Fingers.jpeg",
+    image: Fingers,
     link: "https://www.youtube.com/watch?v=9cmPcH38wjc&list=RD9cmPcH38wjc&start_radio=1",
   },
   {
     id: 9,
     title: "Too Much (Feat Timbaland)",
-    image: "../Assets/Too_Much.jpeg",
+    image: TooMuch,
     link: "https://www.youtube.com/watch?v=X6QVOtow798&list=RDX6QVOtow798&start_radio=1",
   },
   {
     id: 10,
     title: "Let Me",
-    image: "../Assets/Let_me.jpeg",
+    image: LetMe,
     link: "https://www.youtube.com/watch?v=J-dv_DcDD_A&list=RDJ-dv_DcDD_A&start_radio=1",
   },
   {
     id: 11,
     title: "Like I would",
-    image: "../Assets/Mindo_of_mine.jpg",
+    image: LikeIWould,
     link: "https://www.youtube.com/watch?v=pTaqcGz2O5o&list=RDpTaqcGz2O5o&start_radio=1",
   },
 
   {
     id: 13,
     title: "Sour Diesel",
-    image: "../Assets/Sour_Diesel.jpeg",
+    image: SourDiesel,
     link: "https://www.youtube.com/watch?v=XkZz8hodDn0&list=RDXkZz8hodDn0&start_radio=1",
   },
   {
     id: 14,
     title: "What I am",
-    image: "../Assets/What_I_am.jpeg",
+    image: WhatIam,
     link: "https://www.youtube.com/watch?v=7qa6R-qCZWQ&list=RD7qa6R-qCZWQ&start_radio=1",
   },
   {
     id: 15,
     title: "Wrong (feat Kehlani)",
-    image: "../Assets/Wrong.jpeg",
+    image: Wrong,
     link: "https://www.youtube.com/watch?v=-HWAsjirC90&list=RD-HWAsjirC90&start_radio=1",
   },
   {
     id: 16,
     title: "Eyes Closed (Zayn & Jisoo)",
-    image: "../Assets/Eyes_Image.jpeg",
+    image: EyesClosed,
     link: "https://www.youtube.com/watch?v=EN1tMeXQii0",
   },
   {
     id: 17,
     title: "Love Like This",
-    image: "../Assets/Love_like_this.jpg",
+    image: LoveLikeThis,
     link: "https://www.youtube.com/watch?v=918oGJFtjjw&list=RD918oGJFtjjw&start_radio=1",
   },
   {
@@ -176,7 +176,7 @@ export const Collaboration = [
     id: 2,
     title: "I Don't Wanna Live Forever",
     year: 2016,
-    image: "../Assets/I_Don't_Wanna_live_forever.jpeg",
+    image: IDWNF,
     link: "https://www.youtube.com/watch?v=AY9blLYMKnI&list=RDAY9blLYMKnI&start_radio=1",
   },
   {
@@ -240,3 +240,4 @@ export const PromotionalSingles = [
     note: "Final pre-release promotional single for Icarus Falls."  
   },
 ];
+
