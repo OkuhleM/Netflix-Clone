@@ -20,6 +20,8 @@ import NCNL from "../Assets/NoCandleNoLight.jpeg"
 import AWNW from "../Assets/AWholeNewWorld.jpeg"
 import Flames from "../Assets/Flames.jpeg"
 import StarDust from "../Assets/stardust.jpeg"
+import Better from "../Assets/better.jpeg"
+import Alienated from "../Assets/zayn-copy.jpg"
 
 export const albums = [
   {
@@ -192,4 +194,25 @@ export const musicVideos = [
     image: StarDust,
     link: "https://www.youtube.com/watch?v=F9t607v-TDU&list=RDF9t607v-TDU&start_radio=1",
   },
+  {
+    id: 19,
+    title: "Better",
+    year: 2021,
+    image: Better,
+    link: "http://youtube.com/watch?v=NAo38Q9c4xA&list=RDNAo38Q9c4xA&start_radio=1"
+
+  },
+  {
+    id: 20,
+    title: "Alienated",
+    year: 2024,
+    image: Alienated,
+    link: "https://www.youtube.com/watch?v=MPo97pLuuQM&list=RDMPo97pLuuQM&start_radio=1"
+  },
+   {
+    id: 21,
+    title: "Flames (R3HAB & Jungleboi Feat Zayn)",
+    image: Flames,
+    link: "https://www.youtube.com/watch?v=LWEG5xHgM7c&list=RDLWEG5xHgM7c&start_radio=1"
+  }
 ];
