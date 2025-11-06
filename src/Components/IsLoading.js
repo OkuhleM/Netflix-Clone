@@ -4,7 +4,7 @@ function IsLoading({ children }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 3000); // 3 seconds of cuteness
+    const timer = setTimeout(() => setLoading(false), 3000); 
     return () => clearTimeout(timer);
   }, []);
 

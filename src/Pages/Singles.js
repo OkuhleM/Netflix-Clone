@@ -5,6 +5,7 @@ import {
   Collaboration,
   PromotionalSingles,
 } from "../Data/SinglesData";
+import Footer from "../Components/Footer";
 
 const styles = {
   h1: {
@@ -107,6 +108,7 @@ function Singles() {
             🔔 Subscribe on YouTube
           </a>
         </div>
+        <Footer />
     </div>
   );
 }

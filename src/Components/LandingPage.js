@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Banner from "./Banner";
+import Footer from "./Footer";
 
 function LandingPage() {
 
@@ -20,6 +21,7 @@ function LandingPage() {
             🔔 Subscribe on YouTube
           </a>
         </div>
+        <Footer />
     </div>
   );
 }

@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../Components/Navbar";
 import "../Styling/Albums.css";
 import { albums } from "../Data/zaynData";
+import Footer from "../Components/Footer";
 
 function Albums() {
   return (
@@ -48,6 +49,7 @@ function Albums() {
           </a>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Components/Navbar'
 import { musicVideos } from '../Data/zaynData'
 import '../Styling/MusicVideo.css'
+import Footer from '../Components/Footer'
 
 function Videos() {
   return (
@@ -48,6 +49,7 @@ function Videos() {
           </a>
         </div>
         </div>
+        <Footer />
     </div>
   )
 }
