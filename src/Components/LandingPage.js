@@ -7,9 +7,7 @@ function LandingPage() {
   return (
     <div>
       <Navbar />
-      <Banner />
-
-
+      <Banner />s
 
     </div>
   );
