@@ -5,7 +5,7 @@ import About from "../Pages/About";
 import Albums from "../Pages/Albums";
 import Videos from "../Pages/Videos";
 import Singles from "../Pages/Singles";
-import IsLoading from "./IsLoading";
+import AboutZayn from "../Pages/AboutZayn";
 import AppWrapper from "./AppWrapper";
 
 function Display() {
@@ -15,7 +15,7 @@ function Display() {
         <AppWrapper>
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<AboutZayn />} />
           <Route path="/albums" element={<Albums />} />
           <Route path="/videos" element={<Videos />} />
           <Route path="/singles" element={<Singles />} />

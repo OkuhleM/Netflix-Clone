@@ -8,7 +8,7 @@ function LandingPage() {
   return (
     <div>
       <Navbar />
-      <Banner />s
+      <Banner />
   <div className="subscribe-section">
           <h2>💖 Love Zayn’s visuals?</h2>
           <p>Don’t miss a single drop — subscribe to his official YouTube channel!</p>
