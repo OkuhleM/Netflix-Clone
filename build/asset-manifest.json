@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Netflix-Clone/static/css/main.af72a0a0.css",
+    "main.js": "/Netflix-Clone/static/js/main.61b351b1.js",
+    "static/js/453.c10d28cd.chunk.js": "/Netflix-Clone/static/js/453.c10d28cd.chunk.js",
+    "static/media/nobody_is_listening.jpg": "/Netflix-Clone/static/media/nobody_is_listening.5d58f216aca7c7bd7e12.jpg",
+    "static/media/Love_like_this.jpg": "/Netflix-Clone/static/media/Love_like_this.ffed80a0fb70cd18cf46.jpg",
+    "static/media/Dusk_Till_Dawn.jpeg": "/Netflix-Clone/static/media/Dusk_Till_Dawn.42d0036e45741e3fce3d.jpeg",
+    "static/media/zayn-copy.jpg": "/Netflix-Clone/static/media/zayn-copy.b492b7fc4e4f4e18173c.jpg",
+    "static/media/Mindo_of_mine.jpg": "/Netflix-Clone/static/media/Mindo_of_mine.138b7f92ebeb4de5fd0a.jpg",
+    "static/media/Me_Myself_and_I.jpg": "/Netflix-Clone/static/media/Me_Myself_and_I.98bb262ecc457b721d1c.jpg",
+    "static/media/Room_under_the_stairs.jpg": "/Netflix-Clone/static/media/Room_under_the_stairs.75cebb1c3f702b950f51.jpg",
+    "static/media/Pillow_talk.jpg": "/Netflix-Clone/static/media/Pillow_talk.c5314142a71cf8b8dbc2.jpg",
+    "static/media/Cruel.jpeg": "/Netflix-Clone/static/media/Cruel.8f0ddf20fd2a72637b54.jpeg",
+    "static/media/Flames.jpeg": "/Netflix-Clone/static/media/Flames.c957fd12b57c58e015c2.jpeg",
+    "static/media/Icarus_falls.jpg": "/Netflix-Clone/static/media/Icarus_falls.abe9330c06acdd93a176.jpg",
+    "static/media/LikeIWould.jpeg": "/Netflix-Clone/static/media/LikeIWould.a8c315d65e0ac79b71f3.jpeg",
+    "static/media/BackToSleep.jpeg": "/Netflix-Clone/static/media/BackToSleep.8c86a5a339fbc581d8d7.jpeg",
+    "static/media/bed_peace.jpeg": "/Netflix-Clone/static/media/bed_peace.e2dcbb48a09591d1d98f.jpeg",
+    "static/media/logo.svg": "/Netflix-Clone/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Netflix-Clone/index.html",
+    "main.af72a0a0.css.map": "/Netflix-Clone/static/css/main.af72a0a0.css.map",
+    "main.61b351b1.js.map": "/Netflix-Clone/static/js/main.61b351b1.js.map",
+    "453.c10d28cd.chunk.js.map": "/Netflix-Clone/static/js/453.c10d28cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af72a0a0.css",
+    "static/js/main.61b351b1.js"
+  ]
+}
