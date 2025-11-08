@@ -1,8 +1,12 @@
 import React from "react";
 import "../Styling/About.css";
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 
 function About() {
   return (
+    <>
+      <Navbar />
     <div className="about-container">
       <div className="about-overlay"></div>
 
@@ -36,6 +40,21 @@ function About() {
         </div>
       </div>
     </div>
+
+    <div className="subscribe-section">
+          <h2>💖 Love Zayn’s visuals?</h2>
+          <p>Don’t miss a single drop — subscribe to his official YouTube channel!</p>
+          <a
+            href="https://www.youtube.com/@Zayn"
+            target="_blank"
+            rel="noreferrer"
+            className="subscribe-btn"
+          >
+            🔔 Subscribe on YouTube
+          </a>
+        </div>
+    <Footer />
+    </>
   );
 }
 
