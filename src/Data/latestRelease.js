@@ -1,4 +1,4 @@
-import Sideways from '../Assets/SideWays.jpg'
+import Sideways from '../Assets/side-ways.jpg'
 import DieForMe from '../Assets/Die-For-Me.jpg'
 import Konnakol from '../Assets/Konnakol-album.jpg'
 

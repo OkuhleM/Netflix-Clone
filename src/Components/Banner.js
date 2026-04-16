@@ -8,11 +8,13 @@ function Banner() {
 
     
   return (
-    <div className="banner">
+    <div >
 
-<div className="new-era">
+
 <NewEra />
-</div>
+
+<div className="banner">
+
 
       <div className="featured-card">
 
@@ -54,6 +56,7 @@ function Banner() {
     ))
     }
   </div>
+</div>
 </div>
 
     </div>
