@@ -1,5 +1,7 @@
 import React from 'react'
 import { latestReleases } from '../Data/latestRelease'
+import '../Styling/NewEra.css'
+
 function NewEra() {
   return (
     <div className='new-era'>
@@ -25,6 +27,26 @@ function NewEra() {
       </a>
     </div>
     </div>
+
+ <div className="recent-singles">
+    <h2>Latest Drops 🎧</h2>
+
+    <div className="singles-row">
+      {latestReleases.recentSingles.map((song) => (
+        <a
+          key={song.id}
+          href={song.link}
+          target="_blank"
+          rel="noreferrer"
+          className="single-card"
+        >
+          <img src={song.image} alt={song.title} />
+          <p>{song.title}</p>
+        </a>
+      ))}
+    </div>
+  </div>
+
     </div>
   )
 }
