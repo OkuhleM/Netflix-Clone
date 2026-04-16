@@ -20,7 +20,7 @@
   filter: brightness(60%);
 }
 
-.album-overlay {
+.konnakol-album-overlay {
   position: absolute;
   bottom: 30px;
   left: 30px;

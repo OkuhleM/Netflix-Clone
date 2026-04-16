@@ -11,9 +11,10 @@ function NewEra() {
     <img
       src={latestReleases.upcomingAlbum.image}
       alt="Upcoming Album"
+      className='konnakol-album'
     />
 
-    <div className="album-overlay">
+    <div className="konnakol-album-overlay">
       <h1>{latestReleases.upcomingAlbum.title}</h1>
       <p>{latestReleases.upcomingAlbum.description}</p>
 
