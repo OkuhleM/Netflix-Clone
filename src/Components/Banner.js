@@ -16,7 +16,7 @@ function Banner() {
 <div className="banner">
 
 
-      <div className="featured-card">
+      {/* <div className="featured-card">
 
       <img src={zaynBanner} alt="Zayn Malik" className="banner-img" />
       <div className="banner-overlay"></div>
@@ -25,7 +25,7 @@ function Banner() {
         <h1 className="album-title"> Room Under The Stairs</h1>
         <p className="album-details"> 2024 • Includes  "Alienated" • "Stardust" </p>
         <button className="listen-btn">▶ LISTEN NOW</button>
-      </div>
+      </div> */}
 
 <div className="albums-section">
   <h2>Albums</h2>
