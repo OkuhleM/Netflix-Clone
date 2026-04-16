@@ -28,6 +28,8 @@ import Rainberry from "../Assets/rainberry.png"
 import GoodYears from "../Assets/goodyears.jpeg"
 import ThereYouAre from "../Assets/thereyouare.jpeg"
 import IDWNF from "../Assets/I_Don't_Wanna_live_forever.jpeg"
+import SideWays from "../Assets/SideWays.jpg"
+import DieForMe from "../Assets/Die-For-Me.jpg"
 
 export const singles = [
   {
@@ -252,8 +254,26 @@ export const PromotionalSingles = [
     album: "Icarus Falls",
     year: 2018,
     image:ThereYouAre,
-    link: "https://www.youtube.com/watch?v=<video-id-for-There You Are>",
+    link: "https://www.youtube.com/watch?v=eFsGA0GXB-8&list=RDeFsGA0GXB-8&start_radio=1",
     note: "Final pre-release promotional single for Icarus Falls."  
   },
+  {
+    id: 5,
+    title: "Side Ways",
+    album: "Konnakol",
+    year: 2026,
+    image: SideWays,
+    link: "https://www.youtube.com/watch?v=RQ4noGB54a8",
+    note: "Promotional Single for Konnakol"
+  },
+  {
+    id: 6,
+    title: "Die For Me",
+    album: "Konnakol",
+    year: 2026,
+    image: DieForMe,
+    link: "https://www.youtube.com/watch?v=LoElk8clGVg&list=RDLoElk8clGVg&start_radio=1",
+    note: "Promotional Single for Konnakol"
+  }
 ];
 
