@@ -2,12 +2,18 @@ import React from "react";
 import "../Styling/Banner.css";
 import zaynBanner from "../Assets/zayn-copy.jpg";
 import {albums} from "../Data/zaynData"
+import NewEra from "./NewEra";
 
 function Banner() {
 
     
   return (
     <div className="banner">
+
+<div className="new-era">
+<NewEra />
+</div>
+
       <div className="featured-card">
 
       <img src={zaynBanner} alt="Zayn Malik" className="banner-img" />
