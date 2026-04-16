@@ -22,6 +22,7 @@ import Flames from "../Assets/Flames.jpeg";
 import StarDust from "../Assets/stardust.jpeg";
 import Better from "../Assets/better.jpeg";
 import Alienated from "../Assets/zayn-copy.jpg";
+import Konnakol from "../Assets/Konnakol-album.jpg"
 
 
 export const albums = [
@@ -64,6 +65,14 @@ export const albums = [
       "Zayn’s latest masterpiece, raw, poetic, and beautifully haunted.",
     link: "https://www.youtube.com/watch?v=go5IoTKxevo&list=OLAK5uy_m2WsN-tgpnNcLysgfIOaOZZcWtxm-Bnlk",
   },
+  {
+    id: 5,
+    title: "Konnakol",
+    year: 2026,
+    image: Konnakol,
+    description: "New Era 🔥 ",
+    link: ""
+  }
 ];
 
 export const musicVideos = [

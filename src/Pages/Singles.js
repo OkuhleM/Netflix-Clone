@@ -95,6 +95,10 @@ function Singles() {
             </div>
           ))}
         </div>
+
+
+
+        
       </div>
         <div className="subscribe-section">
           <h2>💖 Love Zayn’s visuals?</h2>
