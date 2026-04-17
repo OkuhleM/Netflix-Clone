@@ -9,7 +9,7 @@ export const latestReleases = {
     year: 2024,
     description: "A new chapter. Raw, stripped, and deeply sexy.",
     image: Konnakol,
-    link: "https://www.youtube.com/results?search_query=zayn+room+under+the+stairs"
+    link: "https://www.youtube.com/watch?v=5_PlCn1JNUA&list=PLLULffR_mFJfhyoChnIEsppcUpSNjvDCr"
   },
 
   recentSingles: [
