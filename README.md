@@ -6,7 +6,7 @@ Every section, every animation, every hue of pink — it’s all crafted to capt
 ---
 
 ## 🌸 Live Demo
-👉 [View ZAYNFLIX](https://okuhlem.github.io/Netflix-Clone/)  
+👉 [View ZAYNFLIX](https://okuhlem.github.io/ZaynFlix/)  
 *(Make sure to open it in full screen for the full experience!)*
 
 ---
@@ -53,10 +53,10 @@ If you want to run ZAYNFLIX locally:
 
 ```bash
 # 1. Clone this repo
-git clone https://github.com/OkuhleM/Netflix-Clone.git
+git clone https://github.com/OkuhleM/ZaynFlix.git
 
 # 2. Navigate to the folder
-cd Netflix-Clone
+cd ZaynFlix
 
 # 3. Install dependencies (if using React)
 npm install
